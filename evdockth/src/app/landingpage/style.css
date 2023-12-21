@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    height: max-content;
+    background: none;
+    background-color: chartreuse;
+}
+.local{
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+.container{
+    width: 100%;
+    background-color: brown;
+}
