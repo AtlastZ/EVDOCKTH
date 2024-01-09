@@ -17,7 +17,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className='Navbar '>
+          navbar
+          <a href="/"> Home</a>
+          <a href="landingpage"> LDP</a>
+          {/* <a href="Home"> </a> */}
+        </nav>
+        {children}
+      </body>
     </html>
   )
 }
